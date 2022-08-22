@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="cross">
+	<test name="cros">
+	<parameter name="browser" value="opera"/>
+	<classes>
+	<class name="Pom1"/>	
+	</classes>
+	</test>
+	
+	<test name="cros1">
+	<parameter name="browser" value="firefox"/>
+	<classes>
+	<class name="Pom2"/>	
+	</classes>
+	</test>
+</suite>
