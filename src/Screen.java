@@ -20,7 +20,7 @@ public class Screen {
 		System.setProperty("webdriver.opera.driver", "D:\\operadriver.exe");
 		WebDriver driver=new OperaDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.facebook.com");
+		driver.get("https://www.google.com");
 		driver.findElement(By.id("emailk")).sendKeys("aaaa@gmail.com");
 		Thread.sleep(2000);
 		driver.quit();
